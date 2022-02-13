@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin-bottom: 5px;
+  color: rgb(105, 28, 28);
+}
+
+.question-card {
+  background: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 200px;
+  margin-top: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.question-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 75px;
+  height: 20px;
+  background-color: rgb(105, 28, 28);
+  color: white;
+  font-weight: bold;
+}
+
+.question-one,
+.question-two {
+  width: 450px;
+  height: 30px;
+}
+
+.question-label {
+  font-size: 20px;
+}
