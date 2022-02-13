@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Signin from "./Signin";
 import { handleInitialData } from "../Actions";
 import NewQuestion from "./NewQuestion";
+import { connect } from "react-redux";
 
 class App extends Component() {
   componentDidMount() {
@@ -19,4 +20,4 @@ class App extends Component() {
   }
 }
 
-export default App;
+export default connect()(App);
